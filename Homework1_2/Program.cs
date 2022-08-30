@@ -2,9 +2,9 @@
 
 Console.WriteLine ("Enter three numbers in separate lines:");
 
-int numberA = Int32.Parse(Console.ReadLine());
-int numberB = Int32.Parse(Console.ReadLine());
-int numberC = Int32.Parse(Console.ReadLine());
+int numberA = Convert.ToInt32(Console.ReadLine());
+int numberB = Convert.ToInt32(Console.ReadLine());
+int numberC = Convert.ToInt32(Console.ReadLine());
  
 int maximal = Math.Max(Math.Max(numberA, numberB), numberC);
 int minimal = Math.Min(Math.Min(numberA, numberB), numberC);

@@ -4,11 +4,11 @@ Console.WriteLine ("Enter number :");
 
  int numberA = Convert.ToInt32(Console.ReadLine());
 
-    if (numberA % 2==1) 
+    if (numberA % 2==0) 
 
     {
 
-        Console.WriteLine(numberA + " is an odd number"); 
+        Console.WriteLine(numberA + " is an even number"); 
     
     }
 
@@ -16,6 +16,6 @@ Console.WriteLine ("Enter number :");
 
     {
         
-        Console.WriteLine (numberA + " is an even number");
+        Console.WriteLine (numberA + " is an odd number");
 
     }
